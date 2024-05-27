@@ -1,5 +1,4 @@
 """Module which writes a URL to Instapaper."""
-
 import os
 import requests
 
