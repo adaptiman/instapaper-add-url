@@ -5,8 +5,8 @@ import requests
 from dotenv import load_dotenv
 load_dotenv()
 
-USERNAME = os.getenv('USERNAME')
-USERPASS = os.getenv('USERPASS')
+USERNAME = os.getenv('IPUSERNAME')
+USERPASS = os.getenv('IPUSERPASS')
 
 #This creates parameter for the POST request
 URL = "https://wilderreport.substack.com/p/the-prairies-frozen-angel"
